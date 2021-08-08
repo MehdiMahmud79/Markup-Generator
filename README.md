@@ -4,9 +4,11 @@ A simple markup generator
 
 ```
 + open the terminal 
++ NodeJs
 + npm init -y
 + npm install inquirer
-+ npm readme.js
++ npm index.js
+
 ```
 ## MokUp
 ![project video description](screen.gif)
@@ -20,7 +22,7 @@ A simple markup generator
 
 * [The URL of the GitHub repository](https://mehdimahmud79.github.io/Markup-Generator/)
 
-- - -
+__________________________________________________________
 © 2021 Mehdi Mahmud
 
 
