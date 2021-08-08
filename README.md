@@ -1,5 +1,5 @@
 # Markup-Generator
-
+A simple markup generator 
 ## how to install dependencies
 
 ```
@@ -7,6 +7,10 @@
 + npm init -y
 + npm install inquirer
 + npm readme.js
+```
+## MokUp
+![${data.Title}.](../screen.gif)
+<!--change this to your video link -->
+🔴📺 https://youtu.be/WV-iznvrG5k
 
-![badmath](./screen.gif)
 ![badmath](https://img.shields.io/github/issues/MehdiMahmud79/Holiday-Planner)
