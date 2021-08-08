@@ -66,7 +66,8 @@ undefined
 ```
 # License
 
-This project is license under the mehdi license.
+This project is license under the Public Domain (Unlicense).
+
 ![badmath](https://img.shields.io/github/license/undefined/undefined)
 ________________________________________________________________________________________________
 
