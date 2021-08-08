@@ -7,16 +7,15 @@ A simple markup generator
 
 ![badmath](https://img.shields.io/github/stars/MehdiMahmud79/Markup-Generator)
 
-## how to install dependencies
+## 🛠️ how to install dependencies
 
-```
 + open the terminal 
 + NodeJs
 + npm init -y
 + npm install inquirer
 + npm index.js
 
-```
+
 ## MokUp
 ![project video description](screen.gif)
 <!--change this to your video link -->

@@ -21,10 +21,10 @@ fs.mkdir("./generatedMD", { recursive: true }, (err) => {
 // initialization function
 function init() {
   prompts(content)
-    .then((data) =>
+    .then((answers) =>
       writeFileAsync(
-        `./generatedMD/${data.UserName}_README.md`,
-        MdGeneration(data)
+        `./generatedMD/${answers.UserName}_README.md`,
+        MdGeneration(answers)
       )
     )
     .then(() => log(`Successfully wrote to ./generatedMD/ folder`))
