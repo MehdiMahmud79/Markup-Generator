@@ -2,16 +2,14 @@
 function generateMarkdown(data) {
   const readmeContent = `
 # ${data.Title}
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/${
-    data.UserName
-  }/${data.Title})
-=============
 
 # Description
 ${"```"}
  ${data.Description}
 ${"```"}
 # Table of Contents 
+
+* [Badges](#badges)
 
 * [Installation](#installation)
 
@@ -29,6 +27,11 @@ The following animation shows the web application's appearance and functionality
 
 ![${data.Title}.](../screen.gif)
 
+# Badges
+![badmath](https://img.shields.io/github/issues/${data.UserName}/${data.Title})
+![badmath](https://img.shields.io/github/forks/${data.UserName}/${data.Title})
+![badmath](https://img.shields.io/github/stars/${data.UserName}/${data.Title})
+
 # Installation
 
 The following necessary dependencies must be installed to run the application properly:
@@ -38,7 +41,7 @@ ${data.Installation}
 ${"```"}
 # Usage
 
-​This application is used for ${data.Usage}
+​🏆 This application is used for ${data.Usage}
 
 # Test
 
@@ -49,11 +52,13 @@ ${"```"}
 # License
 
 This project is license under the ${data.License} license.
+![badmath](https://img.shields.io/github/license/${data.UserName}/${data.Title})
+________________________________________________________________________________________________
 
 # Contact
 <${data.Email}>
 
-`;
+`
   return readmeContent;
 }
 

@@ -24,7 +24,6 @@ const questions = [
     type: "input",
     message: "What necessary dependencies must be installed to run this app?",
     name: "Installation",
-    initial: '[x] npm/n[]requirer'
   },
   {
     type: "input",
