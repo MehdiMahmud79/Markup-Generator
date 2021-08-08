@@ -65,9 +65,9 @@ ${"```"}
 
 The following animation shows the web application's appearance and functionality:
 
-![${data.Title}.](../screen.gif)
+![${data.Title}.](../demo.gif)
 <!--change this to your video link -->
-🔴📺 https://youtu.be/WV-iznvrG5k
+🔴📺 https://youtu.be/HbiGOmWcUL0
 
 # Badges
 ![badmath](https://img.shields.io/github/issues/${data.UserName}/${data.Title})
