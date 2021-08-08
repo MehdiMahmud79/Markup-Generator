@@ -1,10 +1,10 @@
-
 // This is a good README template
 function generateMarkdown(data) {
-  
-const readmeContent= `
+  const readmeContent = `
 # ${data.Title}
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/${data.UserName}/${data.Title})
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/${
+    data.UserName
+  }/${data.Title})
 =============
 
 # Description
@@ -17,9 +17,11 @@ ${"```"}
 
 * [Usage](#usage)
 
-* [Test](#testing)
-* [Contact me]Contact me
+* [Test](#test)
+
 * [License](#license)
+
+* [Contact me](#contact)
 
 ## Mock-Up
 
@@ -48,12 +50,11 @@ ${"```"}
 
 This project is license under the ${data.License} license.
 
-# Contact me
+# Contact
 <${data.Email}>
 
-`
-return readmeContent
-   
+`;
+  return readmeContent;
 }
 
 module.exports = generateMarkdown;
