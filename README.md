@@ -1,5 +1,12 @@
 # Markup-Generator
 A simple markup generator 
+
+![badmath](https://img.shields.io/github/issues/MehdiMahmud79/Markup-Generator)
+
+![badmath](https://img.shields.io/github/forks/MehdiMahmud79/Markup-Generator)
+
+![badmath](https://img.shields.io/github/stars/MehdiMahmud79/Markup-Generator)
+
 ## how to install dependencies
 
 ```
@@ -15,7 +22,6 @@ A simple markup generator
 <!--change this to your video link -->
 🔴📺 https://youtu.be/WV-iznvrG5k
 
-![badmath](https://img.shields.io/github/issues/MehdiMahmud79/Holiday-Planner)
 
 ## Websites
 * [URL to the Holiday Planner](https://github.com/MehdiMahmud79/Markup-Generator)
