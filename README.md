@@ -10,7 +10,8 @@ A simple markup generator
 ## 🛠️ how to install dependencies and use the app
 
 ### Open the terminal and write the following commands:
-
++ git clone https://github.com/MehdiMahmud79/Markup-Generator.git
++ cd Markup-Generator
 + npm init -y
 + npm install inquirer
 + npm index.js
