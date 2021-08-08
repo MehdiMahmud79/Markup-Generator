@@ -1,6 +1,8 @@
 // This is a good README template
 function generateMarkdown(data) {
   const readmeContent = `
+  <!--Markup tamplate generator -->
+
 # ${data.Title}
 
 # Description
@@ -30,6 +32,8 @@ ${"```"}
 The following animation shows the web application's appearance and functionality:
 
 ![${data.Title}.](../screen.gif)
+<!--change this to your video link -->
+🔴📺 https://youtu.be/WV-iznvrG5k
 
 # Badges
 ![badmath](https://img.shields.io/github/issues/${data.UserName}/${data.Title})
