@@ -68,12 +68,13 @@ ${"```"}
 ${"```"}
 # License
 
-This project is license under the ${data.License} license.
+This project is license under the ${data.License}.
+
 ![badmath](https://img.shields.io/github/license/${data.UserName}/${data.Title})
 ________________________________________________________________________________________________
 
 # Contact
-- Created by <${data.Email}> - feel free to contact me!
+- If you have any questions please contact me using <${data.Email}>.
 
 `
   return readmeContent;
