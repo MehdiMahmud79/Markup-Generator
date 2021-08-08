@@ -1,5 +1,7 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # Markup-Generator
-A simple markup generator 
+A profesional markup generator 
 
 ![badmath](https://img.shields.io/github/issues/MehdiMahmud79/Markup-Generator)
 ![badmath](https://img.shields.io/github/forks/MehdiMahmud79/Markup-Generator)
@@ -17,9 +19,9 @@ A simple markup generator
 + npm index.js
 
 ## Mock-Up
-![project video description](screen.gif)
+![project video description](demo.gif)
 <!--change this to your video link -->
-🔴📺 https://youtu.be/WV-iznvrG5k
+🔴📺 https://youtu.be/HbiGOmWcUL0
 
 
 ## Default question to include in th ereadme file
@@ -58,7 +60,7 @@ const questions = [
     type: "input",
     message: "What necessary dependencies must be installed to run this app?",
     name: "Installation",
-    default: 'Node.js\nnpm install\nnpm install inquirer'
+    default: 'npm install\nnpm install requirer'
 
   },
   {
@@ -68,7 +70,7 @@ const questions = [
   },
   {
     type: "input",
-    message: "Hopw to contribute in this project?",
+    message: "How to contribute in this project?",
     name: "Contribute",
   },
   {
@@ -83,10 +85,10 @@ const questions = [
     default: 'jest'
   },
   {
-    type: "input",
+    type: "list",
     message: "What license was used for this README?",
     name: "License",
-    default: 'MIT License'
+    choices: ['MIT License','Apache License','The GPL License','Boost Software License 1.0','Public Domain (Unlicense)']
 
   },
 ];
