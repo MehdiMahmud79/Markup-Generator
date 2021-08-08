@@ -102,9 +102,9 @@ ${"```"}
 
 # License
 
-This project is license under the ${data.License}.
+This project is license under the ${myLicense}.
 
-${myLicense}
+
 
 
 ________________________________________________________________________________________________
