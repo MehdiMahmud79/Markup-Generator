@@ -5,10 +5,11 @@ function generateMarkdown(data) {
 const readmeContent= `
 # ${data.Title}
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/${data.UserName}/${data.Title})
+=============
 
 # Description
 ${"```"}
-${data.Description}
+ ${data.Description}
 ${"```"}
 # Table of Contents 
 
@@ -16,6 +17,8 @@ ${"```"}
 
 * [Usage](#usage)
 
+* [Test](#testing)
+* [Contact me]Contact me
 * [License](#license)
 
 ## Mock-Up
@@ -26,15 +29,27 @@ The following animation shows the web application's appearance and functionality
 
 # Installation
 
-The following necessary dependencies must be installed to run the application properly: ${data.Installation}
+The following necessary dependencies must be installed to run the application properly:
 
+${"```"}
+${data.Installation}
+${"```"}
 # Usage
 
 ​This application is used for ${data.Usage}
 
+# Test
+
+​follow this to test this app:
+${"```"}
+ ${data.Test}
+${"```"}
 # License
 
 This project is license under the ${data.License} license.
+
+# Contact me
+<${data.Email}>
 
 `
 return readmeContent

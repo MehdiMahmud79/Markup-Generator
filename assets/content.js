@@ -32,6 +32,11 @@ const questions = [
     },
     {
       type: "input",
+      message: "How to test your app?",
+      name: "Test",
+    },
+    {
+      type: "input",
       message: "What license was used for this README?",
       name: "License",
     }
