@@ -15,13 +15,17 @@ ${"```"}
 
 * [Usage](#usage)
 
+* [Features](#features)
+
+* [Contribute](#contribute)
+
 * [Test](#test)
 
 * [License](#license)
 
 * [Contact me](#contact)
 
-## Mock-Up
+## 🚀 Mock-Up
 
 The following animation shows the web application's appearance and functionality:
 
@@ -32,17 +36,26 @@ The following animation shows the web application's appearance and functionality
 ![badmath](https://img.shields.io/github/forks/${data.UserName}/${data.Title})
 ![badmath](https://img.shields.io/github/stars/${data.UserName}/${data.Title})
 
-# Installation
+# 🛠️ Installation
 
 The following necessary dependencies must be installed to run the application properly:
 
-${"```"}
+${"```bash"}
 ${data.Installation}
 ${"```"}
 # Usage
 
 ​🏆 This application is used for ${data.Usage}
 
+## 🍰 Contribute
+${"```"}
+ ${data.Contribute}
+${"```"}
+## 🧐 Features
+
+${"```"}
+ ${data.Features}
+${"```"}
 # Test
 
 ​follow this to test this app:
@@ -56,7 +69,7 @@ This project is license under the ${data.License} license.
 ________________________________________________________________________________________________
 
 # Contact
-<${data.Email}>
+- Created by <${data.Email}> - feel free to contact me!
 
 `
   return readmeContent;
