@@ -23,7 +23,7 @@ function init() {
   prompts(content)
     .then((answers) =>
       writeFileAsync(
-        `./generatedMD/${answers.UserName}_README.md`,
+        `./generatedMD/${answers.Title}_README.md`,
         MdGeneration(answers)
       )
     )
