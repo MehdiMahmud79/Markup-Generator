@@ -1,6 +1,6 @@
 // This is a good README template
 function chooseLicesnse (option){
-  var choices= ['MIT License',' Apache License','The GPL License','Boost Software License 1.0','Public Domain (Unlicense)']
+  var choices= ['MIT License','Apache License','The GPL License','Boost Software License 1.0','Public Domain (Unlicense)']
   var links=[
     "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
     "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
@@ -8,6 +8,7 @@ function chooseLicesnse (option){
     "[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)",
     "[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)"
     ]
+
   switch(option) {
     case choices[0]:
       return links[0]; 

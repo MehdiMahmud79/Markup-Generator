@@ -60,7 +60,7 @@ const questions = [
     type: "list",
     message: "What license was used for this README?",
     name: "License",
-    choices: ['MIT License','Apache License','The GPL License','Affero GPL','Public Domain (Unlicense)']
+    choices: ['MIT License','Apache License','The GPL License','Boost Software License 1.0','Public Domain (Unlicense)']
 
   },
   
