@@ -14,3 +14,13 @@ A simple markup generator
 🔴📺 https://youtu.be/WV-iznvrG5k
 
 ![badmath](https://img.shields.io/github/issues/MehdiMahmud79/Holiday-Planner)
+
+## Websites
+* [URL to the Holiday Planner](https://github.com/MehdiMahmud79/Markup-Generator)
+
+* [The URL of the GitHub repository](https://mehdimahmud79.github.io/Markup-Generator/)
+
+- - -
+© 2021 Mehdi Mahmud
+
+
