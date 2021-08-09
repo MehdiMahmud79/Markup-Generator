@@ -11,23 +11,13 @@ const writeFileAsync = util.promisify(fs.writeFile);
 // Questions asked to the user
 const content = require("./assets/content");
 
-// creat a directory for the generated readme file
-fs.mkdir("./generatedMD", { recursive: true }, (err) => {
-  if (err) {
-    log(err);
-  }
-});
-
 // initialization function
 function init() {
   prompts(content)
     .then((answers) =>
-      writeFileAsync(
-        `./generatedMD/${answers.Title}_README.md`,
-        MdGeneration(answers)
-      )
+      writeFileAsync("README.md", MdGeneration(answers))
     )
-    .then(() => log(`Successfully wrote to ./generatedMD/ folder`))
+    .then(() => log(`README file sSuccessfully created`))
     .catch((err) => console.error(err));
 }
 
