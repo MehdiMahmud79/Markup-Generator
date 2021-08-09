@@ -19,7 +19,7 @@ A profesional markup generator
 + npm index.js
 
 ## Mock-Up
-![project video description](demo.gif)
+![project video description](./assets/screen.gif)
 <!--change this to your video link -->
 🔴📺 https://youtu.be/HbiGOmWcUL0
 
